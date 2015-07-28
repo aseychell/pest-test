@@ -67,7 +67,8 @@ public class AlgorithmTest {
 	public void testDivideIntIntInt() {
 		assertEquals(0, algorithm.divide(1,2,1));
 		assertEquals(1, algorithm.divide(4,2,2));
-		assertEquals(1, algorithm.divide(4,2,2));		
+		assertEquals(1, algorithm.divide(4,2,2));
+		assertEquals(3, algorithm.divide(6,2,1));
 	}
 	
 	@Test(expected=IllegalArgumentException.class)
