@@ -23,7 +23,7 @@ public class Algorithm {
 	}
 	
 	public int multiply(final int a, final int b, final int c) {
-		return a*b*c;
+		return a*b+c;
 	}
 	
 	public int divide(final int a, final int b) throws IllegalArgumentException {
